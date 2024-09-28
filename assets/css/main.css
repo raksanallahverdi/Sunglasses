@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: rgb(216, 214, 214);
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+}
+header nav a{
+    color: rgb(0, 0, 0);
+   text-decoration: none;
+}
+header .logo{
+   
+    width: 80px;
+    height: 80px;
+    background-color:rgb(216, 214, 214);
+    object-fit: contain;
+    object-position:bottom;
+
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section2 */
+section{
+    padding: 60px;
+    background-color:rgb(216, 214, 214);
+   
+}
+.icons{
+    padding: 15px 0;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+.icons button{
+   border: 1px solid rgb(216, 216, 216);
+   padding: 2px 10px;
+   border-radius: 8px;
+   background-color:#F9F9F9;
+}
+.glasses-wrapper{ display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+.glasses-wrapper .glassCard{
+    background-color: #F9F9F9;
+    width: 30%;
+    text-align: center;
+}
+.glasses-wrapper .glassCard h1{
+   text-align: center;
+
+}
+.glasses-wrapper .glassCard img{
+    width: 100%;
+}
