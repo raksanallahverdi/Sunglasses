@@ -1,0 +1,19 @@
+img{
+    width: 120px;
+    height: 120px;
+}
+.wishedElement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.wishedElements{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+main{
+    padding: 20px 90px;
+}
