@@ -1,9 +1,11 @@
 let showCartItems = JSON.parse(localStorage.getItem("cart")) || [];
 let wishedElementsContainer = document.querySelector(".wishedElements");
+let IncomeTag = document.querySelector(".totalIncome");
 console.log(showCartItems);
+let totalIncome=0;
 
 showCartItems.forEach((element) => {
-    console.log(element);
+  totalIncome+=element.count*element.price;
     let wishedElement = document.createElement("div");
     wishedElement.classList.add("wishedElement");
      wishedElement.innerHTML += `<div><img src="${element.src}" alt=""></div>
@@ -16,8 +18,9 @@ showCartItems.forEach((element) => {
 
        `
        ;
+       console.log(totalIncome);
        
-       
+       IncomeTag.innerHTML=totalIncome + " $";
        wishedElementsContainer.appendChild(wishedElement);
     })
        

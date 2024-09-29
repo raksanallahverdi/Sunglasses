@@ -15,5 +15,16 @@ img{
    
 }
 main{
-    padding: 20px 90px;
+    padding: 20px 90px;}
+h1{
+  
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+    text-align: end;
+    padding-right: 80px;
+}
+.priceTitle{
+    text-decoration: underline;
+    color: red;
 }
